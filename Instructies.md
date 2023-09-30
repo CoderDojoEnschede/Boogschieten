@@ -163,19 +163,46 @@ Probeer het spel te spelen. De pijl verwijnt als we hem hebben geschoten, en er 
 
 Als er een nieuwe pijl komt, dan moet de grootte weer worden teruggezet naar de begingrootte.
 
-▶▶▶ Sleep uit de categorie *Uiterlijken* (paars) het blok *maak grootte <...>* als tweede blok onder de tweede groep, het onder het blok *wanneer ik signaal `nieuwe pijl` ontvang*p. Vul `400` in voor de grootte.
+▶▶▶ Sleep uit de categorie *Uiterlijken* (paars) het blok *maak grootte <...>* als tweede blok onder de tweede groep, net onder het blok *wanneer ik signaal `nieuwe pijl` ontvang*. Vul `400` in voor de grootte.
 
 Probeer het spel te spelen. Nu moet elke keer als een pijl wordt afgeschoten, een nieuwe pijl worden gemaakt die opnieuw kan worden afgeschoten.
 
 ![](images/7.png)
 
-### Opdracht 5: Cursor vertraging bij schieten
+### Opdracht 5: Punten tonen
 
-### Opdracht 6: Punten tonen
+Als we een pijl hebben geschoten, dan scoren we punten.
 
-### Opdracht 7: Feest bij bullseye
+Het aantal punten hangt af van de positie van de pijl:
+- de buitenste ring, wit, scoort 10 punten
+- de tweede ring, zwart, scoort 25 punten
+- de derde ring, blauw, scoort 50 punten
+- de vierde ring, rood, scoort 75 punten
+- de binnenste ring, geel, scoort 100 punten
 
-### Opdracht 8: Punten optellen
+We gaan voor elk van deze kleuren de punten in beeld tonen.
+
+▶▶▶ Sleep uit de categorie *Besturen* (oranje) het blok *als <...> dan* als een-na-laatste blok van de derde groep, net onder het blok *herhaal `50`*.
+
+▶▶▶ Sleep uit de categorie *Waarnemen* (licht blauw) het blok *raak ik kleur <...>* als voorwaarde van het *als <...> dan* blok. De kleur kan worden gekozen door erop de klikken, en in het schermpje de kleurkiezer te gebruiken. Klik op de witte kleur van het boogschietdoel.
+
+▶▶▶ Sleep uit de categorie *Uiterlijken* (paars) het blok *zeg <...> <...> sec.* binnen het *als <...> dan* blok. Kies
+
+▶▶▶ Herhaal bovenstaande drie stappen voor de kleuren zwart, blauw, rood en geel. Zet alle *als <...> dan* blokken onder elkaar.
+
+Zorg ervoor dat het laatste blok in het rijtje altijd het blokje *zend signaal `nieuwe pijl`* blijft.
+
+![](images/8.png)
+
+Probeer het spel eens uit. Afhankelijk hoe goed je de pijl richt, krijg je een ander aantal punten.
+
+### Opdracht 6: Feest bij bullseye
+
+Het is wel erg moeilijk om de top score te halen, 100 punten!
+
+Als het lukt
+
+### Opdracht 7: Punten optellen
 
 ### Extra opdracht: Wind
 
