@@ -62,7 +62,7 @@ De pijl stellen we voor als een richtpunt.
 
 ▶▶▶ Klik met de rechter muisknop op de afbeelding hieronder, en selecteer *Sla afbeelding op als...*. Sla de afbeelding ergens op de computer op.
 
-![scratch achtergrond](images/pijl.svg)
+![pijl](images/pijl.svg)
 
 Met de afbeelding van de richtpunt van de pijl gaan we een *sprite* maken. Een sprite is een onderdeel van ons spel.
 
@@ -72,11 +72,11 @@ In het scherm moet nu een pijlpunt zichtbaar zijn van de sprite die net is aange
 
 Op de achtergrond is de pijl ook op een willekeurige plek verschenen.
 
-![scratch achtergrond](images/4.png)
+![](images/4.png)
 
-We gaan te pijl iets groter maken.
+We gaan de pijl iets groter maken.
 
-▶▶▶ Vul in het veld *Grootte* het getal `400` in.
+▶▶▶ Vul aan de rechter kant in het veld *Grootte* het getal `400` in.
 
 De pijl moet nu vier keer zo groot zijn als eerst.
 
@@ -84,9 +84,67 @@ De pijl moet nu vier keer zo groot zijn als eerst.
 
 Er gebeurt nog niet zoveel in ons spel. We gaan de pijl laten bewegen.
 
+Ten eerste moeten we iets doen als het spel start.
 
+Zodra het spel start, zetten we de pijl op een willekeurige plek.
+
+In Scratch gebruiken we daarvoor *signalen*. Signalen geven aan dat er iets is gebeurd. In ons geval willen we een nieuwe pijl schieten, dus maken we een signaal dat `nieuwe pijl` heet.
+
+▶▶▶ Kies aan de linker kant de categorie *Gebeurtenissen* (geel).
+
+▶▶▶ Sleep het blok *wanneer op 🟩 wordt geklikt* in het veld.
+
+▶▶▶ Sleep het blok *zend signaal <...>* in het veld.
+
+▶▶▶ Kies binnen het blok *zend signaal <...>*, de optie *Nieuw bericht*, en typ `nieuwe pijl` in het tekstveld.
+
+Nu wordt er een signaal gestuurd als het spel wordt gestart. Daar zien we alleen nog niet zoveel van.
+
+![](images/5.png)
+
+▶▶▶ Sleep het blok *wanneer ik signaal <...> ontvang* in het veld, en maak daarmee een nieuwe groep.
+
+▶▶▶ Selecteer in het blok *wanneer ik signaal <...> ontvang* het signaal `nieuwe pijl`.
+
+▶▶▶ Kies aan de linker kant de categorie *Beweging* (blauw).
+
+▶▶▶ Sleep het blok *ga naar x: <...>, y: <...>* in het veld.
+
+▶▶▶ Kies aan de linker kant de categorie *Functies* (groen).
+
+▶▶▶ Sleep het blok *willekeurig getal tussen <...> en <...>* op het eerste getal in het blauwe *ga naar* blok.
+
+▶▶▶ Sleep nog een blok *willekeurig getal tussen <...> en <...>* op het tweede getal in het blauwe *ga naar* blok.
+
+▶▶▶ Kies voor beide *willekeurig getal* blokken de getallen `-150` en `150`.
+
+▶▶▶ Kies aan de linker kant de categorie *Besturen* (oranje).
+
+▶▶▶ Sleep een blok *herhaal* (alleen herhaal, geen aantal of andere vakjes) in het veld.
+
+▶▶▶ Kies aan de linker kant de categorie *Beweging* (blauw).
+
+▶▶▶ Sleep het blok *schuif in <...> sec. naar x: <...>, y: <...>* in de binnenkant van het oranje *herhaal* blok.
+
+▶▶▶ Zet het eerste getal in het blauwe *schuif in...* blok op `0.5`.
+
+▶▶▶ Kies aan de linker kant de categorie *Functies* (groen).
+
+▶▶▶ Sleep het blok *willekeurig getal tussen <...> en <...>* op het eerste getal in het blauwe *schuif in...* blok.
+
+▶▶▶ Sleep nog een blok *willekeurig getal tussen <...> en <...>* op het tweede getal in het blauwe *schuif in...* blok.
+
+▶▶▶ Kies voor beide *willekeurig getal* blokken de getallen `-150` en `150`.
+
+![](images/6.png)
+
+Laten we het uitproberen! Klik op de groene vlag 🟩 om het spel te starten!
+
+De pijl moet over het scherm heen en weer bewegen.
 
 ### Opdracht 4: Schieten
+
+
 
 ### Opdracht 5: Cursor vertraging bij schieten
 
