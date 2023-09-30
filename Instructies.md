@@ -8,8 +8,7 @@ We beginnen helemaal leeg. Elke opdracht hieronder is een stukje van het spel. A
 
 Elke opdracht bevat uitleg, en dingen die jij zelf moet doen. De dingen die jij zelf moet doen, staan aangegeven met `▶▶▶`.
 
-Als je helemaal klaar bent, zal het eindresultaat er ongeveer zo uit zien
-
+Als je helemaal klaar bent, zal het eindresultaat er ongeveer zo uit zien:
 ![klaar](images/1.png)
 
 ### Opdracht 0: Openen van Scratch
@@ -29,7 +28,7 @@ Dat was gemakkelijk! Nu komt het echte werk!
 
 ![scratch](images/2.png)
 
-### Opdracht 1: Een mooie achtergrond
+### Opdracht 1: De achtergrond
 
 We hebben nu in Scratch een mooi nieuw project gemaakt. We gaan hier in ons spel programmeren.
 
@@ -144,7 +143,31 @@ De pijl moet over het scherm heen en weer bewegen.
 
 ### Opdracht 4: Schieten
 
+We gaan met de spatiebalk op het toetsenbord de pijl in ons spel afschieten. Weet je de spatiebalk te vinden op het toetsenbord?
 
+In Scratch kunnen we het toetsenbord gebruiken om het spel te besturen. Voor ons spel hebben we alleen de spatiebalk nodig, maar het is mogelijk om elke toets van het toetsenbord, en zelfs de muis te gebruiken!
+
+▶▶▶ Sleep uit de categorie *Gebeurtenissen* (geel) het blok *wanneer <...> is ingedrukt*, en maak daarmee een nieuwe groep.
+
+Als we de spatiebalk indrukken, dan schieten we de pijl, en moet alle andere beweging stoppen.
+
+▶▶▶ Sleep uit de categorie *Besturen* (oranje) het blok *stop <...>* in het veld. Kies daarin de optie `alle scripts in sprite`.
+
+▶▶▶ Sleep uit de categorie *Besturen* (oranje) het blok *herhaal <...>* (met een getal) in het veld. Vul het getal `50` in voor het aantal herhalingen.
+
+▶▶▶ Sleep uit de categorie *Uiterlijken* (paars) het blok *verander grootte met <...>* binnen de oranje herhaling. Kies `-10` als getal.
+
+▶▶▶ Sleep uit de categorie *Gebeurtenissen* (geel) het blok *zend signaal <...>* onder (buiten) de oranje herhaling. Kies `nieuwe pijl` als signaal.
+
+Probeer het spel te spelen. De pijl verwijnt als we hem hebben geschoten, en er komt geen nieuwe pijl meer.
+
+Als er een nieuwe pijl komt, dan moet de grootte weer worden teruggezet naar de begingrootte.
+
+▶▶▶ Sleep uit de categorie *Uiterlijken* (paars) het blok *maak grootte <...>* als tweede blok onder de tweede groep, het onder het blok *wanneer ik signaal `nieuwe pijl` ontvang*p. Vul `400` in voor de grootte.
+
+Probeer het spel te spelen. Nu moet elke keer als een pijl wordt afgeschoten, een nieuwe pijl worden gemaakt die opnieuw kan worden afgeschoten.
+
+![](images/7.png)
 
 ### Opdracht 5: Cursor vertraging bij schieten
 
