@@ -186,7 +186,7 @@ We gaan voor elk van deze kleuren de punten in beeld tonen.
 
 ▶▶▶ Sleep uit de categorie *Waarnemen* (licht blauw) het blok *raak ik kleur <...>* als voorwaarde van het *als <...> dan* blok. De kleur kan worden gekozen door erop de klikken, en in het schermpje de kleurkiezer te gebruiken. Klik op de witte kleur van het boogschietdoel.
 
-▶▶▶ Sleep uit de categorie *Uiterlijken* (paars) het blok *zeg <...> <...> sec.* binnen het *als <...> dan* blok. Kies
+▶▶▶ Sleep uit de categorie *Uiterlijken* (paars) het blok *zeg <...> <...> sec.* binnen het *als <...> dan* blok. Kies het aantal punten dat is gescoord voor de kleur (dus 10 punten voor wit) als tekst.
 
 ▶▶▶ Herhaal bovenstaande drie stappen voor de kleuren zwart, blauw, rood en geel. Zet alle *als <...> dan* blokken onder elkaar.
 
@@ -196,13 +196,40 @@ Zorg ervoor dat het laatste blok in het rijtje altijd het blokje *zend signaal `
 
 Probeer het spel eens uit. Afhankelijk hoe goed je de pijl richt, krijg je een ander aantal punten.
 
-### Opdracht 6: Feest bij bullseye
+### Opdracht 6: Feest bij schieten in de roos
 
 Het is wel erg moeilijk om de top score te halen, 100 punten!
 
-Als het lukt
+Als het lukt om geel te raken, dan is dat wel een feestje waard 🎉.
+
+▶▶▶ Ga naar het tabblad *Geluiden*.
+
+▶▶▶ Op de knop linksonder, *Kies een geluid*, klik in het uitklapmenu op *Kies een geluid*.
+
+▶▶▶ Zoek naar `cheer` en kies het geluid dat `Cheer` heet. Dat betekent juichen in het Engels.
+
+▶▶▶ Ga terug naar het tabblad *Code*.
+
+▶▶▶ Sleep uit de categorie *Geluid* (paars) het blok *start geluid <...>* binnen het *als <...> dan* blok als geel wordt geraakt. Kies de het `Cheer` geluid.
+
+Probeer geel te raken met de pijl. Er moet nu hard voor je worden gejuichd, wat een feestje!
+
+![](images/9.png)
 
 ### Opdracht 7: Punten optellen
 
+Bij een echte boogschiet wedstrijd worden de punten opgeteld die zijn geschoten. Aan het einde van de wedstrijd wint de persoon met de meeste punten.
+
+Wij gaan in het spel ook de punten optellen.
+
 ### Extra opdracht: Wind
+
+Deze opdracht is extra moeilijk, voor als je extra uitdaging zoekt. Niet alle stappen zijn tot in detail uitgewerkt, alleen de hooftlijnen staan uitgelegd. De blokken moet je zelf nog bedenken en invullen.
+
+We gaan wind toevoegen aan het spel.
+
+Wanneer je een pijl schiet, dan duwt de wind de pijl een beetje de kant op waar de wind naartoe waait.
+
+Als de wind hard waait, dan duwt de wind de pijl verder.
+
 
