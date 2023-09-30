@@ -222,9 +222,23 @@ Bij een echte boogschiet wedstrijd worden de punten opgeteld die zijn geschoten.
 
 Wij gaan in het spel ook de punten optellen.
 
+In Scratch kunnen we dingen onthouden, zoals het aantal geschoten punten, in een *variabele*.
+
+▶▶▶ Klik in de categorie *Variabelen* (donker oranje) op de knop *Maak een variabele*. Noem de variabele `punten`. Selecteer *voor alle sprites*. Klik OK.
+
+Je ziet nu rechts boven in beeld de variabele `punten` staan, met het getal `0`.
+
+▶▶▶ Sleep uit de categorie *Variabelen* (donker oranje) het blok *verander variabele <...> met <...>* binnen het *als <...> dan* met de witte kleur. Kies `punten` als variabele, en `10` als waarde.
+
+▶▶▶ Herhaal bovenstaande stap voor de kleuren zwart, blauw, rood en geel. Kies steeds het aantal punten dat is gescoord.
+
+Schiet een aantal pijlen. Zie je de teller oplopen?
+
+![](images/10.png)
+
 ### Extra opdracht: Wind
 
-Deze opdracht is extra moeilijk, voor als je extra uitdaging zoekt. Niet alle stappen zijn tot in detail uitgewerkt, alleen de hooftlijnen staan uitgelegd. De blokken moet je zelf nog bedenken en invullen.
+Deze opdracht is extra moeilijk, voor als je extra uitdaging zoekt. Niet alle stappen zijn tot in detail uitgewerkt, alleen de hoofdlijnen staan uitgelegd. De blokken moet je zelf nog bedenken en invullen.
 
 We gaan wind toevoegen aan het spel.
 
@@ -232,4 +246,14 @@ Wanneer je een pijl schiet, dan duwt de wind de pijl een beetje de kant op waar 
 
 Als de wind hard waait, dan duwt de wind de pijl verder.
 
+▶▶▶ Maak een nieuwe sprite. Kies de pijl als afbeelding (`arrow` in het Engels). Noem de sprite `wind`. Zet de sprite rechtsboven in beeld.
 
+▶▶▶ Maak een nieuwe variabele, `windrichting`, voor alle sprites. Zet bij het signaal `nieuwe pijl` de variabele op een waarde tussen 0 en 360.
+
+▶▶▶ Maak een nieuwe variabele, `windsterkte`, voor alle sprites. Zet bij het signaal `nieuwe pijl` de variabele op een waarde tussen 0 en 6.
+
+▶▶▶ Laat de sprite van de wind bij het signaal `nieuwe pijl` de richting van de sprite op de windrichting, en de grootte van de pijl op 30 keer de windsterkte.
+
+▶▶▶ Laat de sprite van de pijl bij het schieten de richting aannemen van de windrichting. Binnen de herhaling van 50 keer wordt elke herhaling het aantal stappen worden gezet van de windsterkte.
+
+![](images/11.png)
