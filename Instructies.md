@@ -34,7 +34,7 @@ We hebben nu in Scratch een mooi nieuw project gemaakt. We gaan hier in ons spel
 
 Echter heeft Scratch ons al een begin gegeven dat we eigenlijk niet willen: een kat.
 
-▶▶▶ Klik aan de rechterkant op het icoontje van de prullenbak om te kat te verwijderen.
+▶▶▶ Klik aan de rechterkant op het icoontje van de prullenbak om de kat te verwijderen.
 
 Nu is de omgeving echt leeg.
 
