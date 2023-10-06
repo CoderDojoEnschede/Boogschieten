@@ -15,7 +15,7 @@ Als je helemaal klaar bent, zal het eindresultaat er ongeveer zo uit zien:
 
 De programmeeromgeving waarin we gaan werken heet *Scratch*. Dat is een website waarop je blokken kunt slepen om een programma te maken. Het resultaat kan je direct bekijken en uitproberen!
 
-▶▶▶ Open Scratch door op de link te klikken: https://scratch.mit.edu/projects/editor
+▶▶▶ Open Scratch door op de link te klikken: [https://scratch.mit.edu/projects/editor](https://scratch.mit.edu/projects/editor)
 
 Er zijn meerdere dingen te zien:
 - Code blokken (links)
